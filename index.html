@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+    <!-- All headers elements goes here-->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </nav>
+
+    </header>
+    <main>
+        <section class="hero">
+            <h1> Welcome to our Cakes and Parties E-Comerce</h1>
+            <p> Find here the perfect party you are looking for</p>
+            <button>Order Here</button>
+        </section>
+        <section class="product_cakes">
+            <h2>Cakes</h2>
+            <div class="product-grid">
+                <!-- cakes goes here from js code-->
+            </div>
+        </section>
+        <!--<section class="product_parties">
+            <h2>Parties</h2>
+            <div class="product-grid">
+                 Parties goes here from js code
+            </div>
+        </section>-->
+        <section class="cart">
+            <h2>Trolley</h2>
+            <table>
+                <thread>
+                    <tr>
+                        <th>Product</th>
+                        <th>Quantity</th>
+                        <th>Price</th>
+                        <th>Subtotal</th>
+                    </tr>
+                </thread>
+                <tbody>
+                    <!-- items dinamically added by js code-->
+                </tbody>
+            </table>
+            <p>Total: <span id="total">€0.00</span></p>
+            <button id="checkout">Pay Now</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Geneci Ecommerce v1.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>

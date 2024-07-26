@@ -25,7 +25,7 @@ function renderProducts() {
             <img src="${product.image}" alt="${product.name}">
             <h3>${product.name}</h3>
             <p>€${product.price}</p>
-            <button>Add to Cart</button>        
+            <button id="buttonCart">Add to Cart</button>        
         `;
         productDiv.querySelector('button').addEventListener('click', () => addToCart(product.id));
         productGrid.appendChild(productDiv);
